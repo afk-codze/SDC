@@ -1,0 +1,2 @@
+dato che il valore al quale arriviamo in eax prima della riga 7 è 65, tutte le istruzioni listate ci fanno giungere al valore 42
+risposta esatta: D Tutte le precedenti

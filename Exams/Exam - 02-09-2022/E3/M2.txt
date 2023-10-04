@@ -1,0 +1,13 @@
+
+
+struct S {
+	char a;		|x-|
+	short b;	|xx|
+	char c;		|x-|
+	int d;		|xxxx|
+			|--|
+};
+
+|x-||xx||x-||xxxx||--| --> sizeof 12B
+
+risposta esatta: D La struct avrà 4 byte di padding
