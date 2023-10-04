@@ -1,0 +1,6 @@
+A --> sicuramente vera dato che si tratta di spazio logico una astrazione softwere che serve a noi per poter gestire efficacemente la memoria
+B --> vera, l'unita MMU crea la tabella delle pagine grazie alla quale e possibile associare indirizzi logici a inirizzi fisici
+c --> vera, se nella tabella delle pagine una pagina ha bit di validita corrispondente a 0 o si trova nella zona di swap su disco oppute non e mai stata allocata memoria 
+di conseguenza la D e falsa
+
+risposta esatta: D

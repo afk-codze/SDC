@@ -1,0 +1,3 @@
+c --> falsa --> un processo in stato di ready non sta eseguendo codice di conseguenza e un processo che non puo effettuare una system call
+
+risposta essatta: C

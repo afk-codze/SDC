@@ -1,0 +1,8 @@
+legge di amdhal: speedup complessivo = 1/((a/k)+(1-a))
+
+K = 2X
+speedup complessivo = 1.5X
+
+1.5 = 1/((a/2)+(1-a)) --> 1/1.5 = a/2 +(1-a) --> 0.66 = a/2 + 1 - a --> -0.33 = (a -2a)/2 --> -0.66 = -a --> a = 0.67 --> 67%
+
+risposta esatta: B 67%
