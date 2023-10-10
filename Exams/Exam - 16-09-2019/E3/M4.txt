@@ -1,0 +1,19 @@
+movl %edx, %eax |*1
+addl $1, %ebx	|*2
+subw %ax, %cx 	| dipendenza da *1
+movl %ebx, %esi | dipendenza da *2
+
+movl %edx, %eax	| F D - - W
+addl $1, %ebx 	| F D E - W
+subw %ax, %cx	| F D E - W
+movl %ebx, %esi	| F D - - W
+
+F D - - W
+  F D E - W
+    - - - - -
+      - - - - -
+        F D E - W
+          F D - - W
+<------10 cicli---->
+
+risposta esatta: C 10

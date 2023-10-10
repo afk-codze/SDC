@@ -1,0 +1,13 @@
+000 - 0 
+001 - 1
+010 - 2
+011 - 3
+100 - 4
+101 - 5
+110 - 6
+111 - 7
+
+0643 --> 110 100 011 rw- r-- -wx 
+
+il proprietario non puo eseguire il file! 
+risposta esatta: A il proprietario puo eseguire il file

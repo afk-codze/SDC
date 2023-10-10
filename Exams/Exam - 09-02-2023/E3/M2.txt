@@ -1,0 +1,30 @@
+cache completamente associativa
+2 linee
+16 B ciascuna
+array v allineato a 16 byte
+
+int v[12];
+v[0]=5;
+v[1]=4;
+v[10]=3;
+v[8]=2;
+v[2]=v[10];
+v[9]=v[1];
+
+dato che l'array e allineato a 16byte e ha 12 componenti posso suddividerlo il 3 gruppi
+
+gruppo 0: v[0],v[1],v[2],v[3]
+gruppo 1: v[4],v[5],v[6],v[7]
+gruppo 2: v[8],v[9],v[10],v[11]
+
+Poiche' la cache e' completamente associativa, ogni blocco dell’array può essere portato in uno qualsiasi dei due blocchi di cache. 
+
+v[0]=5; --> cold miss gruppo 0  |MISS|
+v[1]=4; --> chache hit il gruppo 0  
+v[10]=3 --> cold miss gruppo 2 |MISS|
+tutte e due le linee di cache sono occupate ora
+v[8]=2; --> chache hit gruppo 2
+v[2]=v[10]; --> cache hit
+v[9]=v[1]; --> cache hit
+
+risposta esatta: B 2

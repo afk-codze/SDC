@@ -1,0 +1,4 @@
+A --> falso --> p contiene un indirizzo della memoria dinamica heap
+B --> falso --> b anche se non inizializzata rappresenta lo spazio in memoria necessario a salvare un intero dunque 32 bit
+C --> falso --> p e una variabile locale alla funzione che contiene un indirizzo di memoria dinamica
+D --> vero --> al primo indirizzo di stack e presente il parametro che viene passato alla funzione prima della sua chiamata --> stiamo infatti assegnando a p l'indirizzo di a

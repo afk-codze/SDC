@@ -1,0 +1,10 @@
+pazio logico dei processi a 32 bit --> v = 32 --> 2^32B
+tabella delle pagine occupi 1 MB --> 2^20 B
+entry della tabella delle pagine 32 bit --> 4B --> 2^2 B
+
+# delle entry = 2^20/2^2 = 2^18
+grandezza di ongi pagina = 2^32/2^18 = 2^14 = 16KB
+
+risposta esatta = 16 KB
+
+

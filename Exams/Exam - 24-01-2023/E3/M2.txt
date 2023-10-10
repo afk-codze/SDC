@@ -1,0 +1,6 @@
+la prima chiamata a fork crea un processo figlio che pero non performa le fork successive dato che il risulato di fork per il figlio e uguale a zero
+il padre poi prosegue l'esecuzione del codice effettuando la seconda fork che genera un altro figlio 
+a questo punto sia il padre che il figlio effettuano la terza fork con la seguente creazione di altri 2 processi
+
+risposta esatta:B Sono generati 4 processi (oltre al main stesso)
+

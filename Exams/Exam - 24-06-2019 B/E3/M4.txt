@@ -1,0 +1,23 @@
+Cache associativa a 2 vie 
+4 linee di cache --> indici pari in 0,1 indici dispari in 2,3
+128 bit ciascuna
+
+1446, 422, 908, 409, 665, 345, 991.
+
+
+	0	1	2	3
+11			11(0)
+
+3			11(1)	3(0)
+
+7			7(0)	3(1)
+
+3			7(1)	3(0)
+
+5			5(0)	3(1)
+
+2	2(0)		5(1)	3(2)
+
+7	2(0)	-	5(1)	7(0)
+
+risposta corretta: A 2, -, 5, 7

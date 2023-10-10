@@ -1,0 +1,24 @@
+piccola cache completamente associativa
+2 sole linee da 16 byte
+array v sia allineato a un indirizzo multiplo di 16 byte
+
+int v[12]; --> 4B*12 = 48 --> 48/16 = 3 --> posso dividere l'arrai in 3 gruppi
+v[4] = 7;
+v[8] = 2;
+v[1] = 5;
+v[11] = 9;
+v[2] = v[8];
+v[10] = v[1];
+
+gruppo 1 : v[0], v[1], v[2], v[3]
+gruppo 2 : v[4], v[5], v[6], v[7]
+gruppo 3 : v[8], v[9], v[10], v[11]
+
+v[4] = 7; --> miss carico blocco 2 in liena 1
+v[8] = 2; --> miss carico blocco 3 in liena 2
+v[1] = 5; --> miss --> scelgo linea vittima (LRU) linea 1 --> blocco 1 in linea 1
+v[11] = 9; --> hit
+v[2] = v[8]; --> hit
+v[10] = v[1]; --> hit 
+
+risposta correttaL: A 3

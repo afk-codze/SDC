@@ -1,0 +1,16 @@
+addl $1, %eax   --> F D E - W 
+movl %edx, %ebx --> F D - - W
+subb %bl, %cl   --> F D E - W --> dipende dalla istruzione superiore 
+movl %eax, %esi --> F D - - W --> dipende dalla prima istruzione
+
+
+F D E - W
+  F D - - W
+    - - - - -
+      - - - - -
+        - - - - -
+          F D E - W
+            F D - - W
+<----11 cicli------->
+
+risposta corretta: C 11

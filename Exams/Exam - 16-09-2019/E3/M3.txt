@@ -1,0 +1,6 @@
+rwx r-x --x
+111 101 001
+
+0751
+
+risposta esatta: B 0751

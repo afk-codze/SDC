@@ -1,0 +1,5 @@
+A --> flso non ce codice morto da eliminare
+B --> falso non ci sono costanti da propagare
+c --> vero --> x*x da sempre lo stesso risultato ad ogni iterazione quidi e un valore che possiamo calcolare al di fuori del loop ed assegnarlo come costante ad ogni loop-
+
+risposta corretta: C

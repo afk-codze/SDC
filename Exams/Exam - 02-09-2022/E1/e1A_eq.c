@@ -31,7 +31,6 @@ unsigned int* div_vectors(unsigned int* a, unsigned int* b, int n) {
     
 L:    
     if (ecx >= n) goto H;
-	//devo settare edx con il bit piu significativo di eax oppure con 0 dato che e unsiged?
 	//edx:eax/S 
 	int eax1 = ebx[ecx];
 	int edi = esi[ecx];

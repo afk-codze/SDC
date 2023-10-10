@@ -1,0 +1,31 @@
+* cache associativa a 2 vie
+* 4 linne
+*64 byte ciscuna
+
+ogni indirizzo di memoria va mappato in blocchi della stessa dimensione delle linee di cache (64 byte)
+
+62 -> 0
+413 -> 6
+6200 -> 96
+42 -> 0
+916 -> 0
+400 -> 6
+520 -> 8
+
+	0	1	2	3
+	
+0	0(0)
+
+6	0(1)	6(0)
+
+96	96(0)	6(1)
+
+0	96(1)	0(0)
+
+14	14(0)	0(1)
+
+6	14(1)	6(0)
+
+8	8(0)	6(1)
+
+risposta corretta B: 8, 6, -, -

@@ -1,0 +1,2 @@
+Non e possibile prevedere il contenuto del registro %ecx dopo la chiamata a funzione foo dato che la funzione e autorizzata a sporcare tale registro
+risposta esatta C: Non è possibile prevederlo

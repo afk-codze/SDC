@@ -1,0 +1,10 @@
+logico dei processi a 33 bit --> 2^33
+dimensione della tabella delle pagine è 4 MB --> 2^22
+entry della tabella delle pagine siano grandi ciascuna 16 bit --> 2B --> 2^1
+
+
+# entry = 2^22/2^1 = 2 ^ 21
+
+dimensione di una pagina = 2^33/2^21 = 2^12 --> 4KB
+
+risposta corretta: C 4 KB

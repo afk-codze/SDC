@@ -1,0 +1,2 @@
+B --> falso --> non e un file eseguibile e un file.o --> dopo che e stato linkato con gcc file.o diventa file --> un file eseguibile
+

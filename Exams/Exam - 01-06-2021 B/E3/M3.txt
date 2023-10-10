@@ -1,0 +1,7 @@
+ogni processo figlio e una copia dell'immagine di memoria del processo padre
+
+il primo processo padre effettua tutte le fork e di conseguenza il valore di fork() per quel processo e != 0 per tutte le invocazioni
+invece per i figli una delle due fork() nell'if restituisce 0
+di conseguenza fork() && fork() e vera solo nel primo processo padre --> la stampa che viene eggettuata e "o"
+
+risposta esatta D

@@ -1,0 +1,13 @@
+Si consideri un sistema di calcolo con spazio logico dei processi a 32 bit --> v = 32
+ogni pagina è di 2 KB --> 2^11
+entry della tabella delle pagine siano grandi ciascuna 32 bit --> 4B 2^2
+
+dimensione di una pagina = spazio logico totale / # delle entry
+
+#delle entry = dimensione della tabella delle pagine / dimensione delle entry 
+
+2^11 = 2^32 / # delle entry --> # delle entry = 2^32/2^11 = 2^21
+
+2^21 = dimensione tabella delle pagine/ 2^2 --> dimensione tabella delle pagine 2^23 = 8 MB
+
+risposta esatta D

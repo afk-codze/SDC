@@ -1,0 +1,6 @@
+A --> VERO --> il segnale sigkill induce una terminazione forzata del processo ricevente e non e possibile gestirlo ne è recuperabile
+B --> VERO --> un processo figlio alla sua terminazione manda un segnale SIGCHILD al padre 
+C --> FALSO --> il segnale SIGALARM se non gestito provoca la terminazione del programma ricevente
+D --> VERO
+
+risposta esatta: C

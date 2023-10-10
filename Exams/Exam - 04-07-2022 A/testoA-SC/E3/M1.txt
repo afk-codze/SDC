@@ -1,0 +1,4 @@
+B --> p contiene un indirizzo della stack --> falso: p contiente un indirizzo che punta ad una zona di memoria allocata i heap
+A --> corretto --> x denota un oggetto allocato in head e int x = 0 e una variabile globale inizializzta a zero dunque si trova in .bss
+C --> il valre di x non e costante dunque non puo essere in rodata
+D --> errata perche s2 e una variabile locale e non uno string literal

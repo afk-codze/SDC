@@ -1,0 +1,10 @@
+Per risolvere il quesito e necessario applicare la legge di Amdhal
+
+speedup complessivo = 1 /((a/k) + (1-a))
+sppedup complessivo = 1.2x
+k = 1.5x
+vogliamo trovare a
+
+1.2 = ((a/1.5) + (1-a)) --> 1/(1.2) = a/1.5 + 1 - a --> 1/(1.2) - 1 = a/1.5 - a --> ((1/1.2)-1) * 1.5 = a - 1.5a --> -0.25 = -0.5a --> a = -0.25/-0.5 = 0.5 --> 50%
+
+risposta esatta A

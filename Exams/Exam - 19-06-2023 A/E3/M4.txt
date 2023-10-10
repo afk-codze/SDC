@@ -1,0 +1,19 @@
+typedef struct S {
+	short x;
+	char *y;
+	char z;
+	int w;
+} S;
+
+allineata a 4B
+
+typedef struct S {
+	short x;	|xx--|
+	char *y;	|xxxx|
+	char z;		|x---|
+	int w;		|xxxx|
+} S;
+
+offset del campo w = 12B
+
+risposta esatta: C 12

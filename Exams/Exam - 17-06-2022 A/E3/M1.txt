@@ -1,0 +1,7 @@
+dopo l'istruzione 5 in eax si trova il valore 10
+
+A - orl $10, %eax --> 10 or 10 = 10
+B - xorl $15, %eax --> 10 xorl 15 = 5
+C - sarl $1, %eax --> 10 >> 1 = 10/2 = 5
+
+risposta esatta D

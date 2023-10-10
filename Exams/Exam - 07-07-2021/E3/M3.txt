@@ -1,0 +1,6 @@
+a = 0.4
+speedup porzione del programma = T/T' = 1/(1-0.3) = 1.43 --> K = 1.43
+
+speedup complessivo = 1 / ((a/k)+(1-a)) = 1 / ((0.4/1.43)+(1-0.4)) = 1 / (0.2792 + 0.6) = 1.136X ~ 1.14X
+
+risposta esatta: B ~1.14x

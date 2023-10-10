@@ -1,0 +1,19 @@
+Domanda 4 (paginazione)
+Si consideri un sistema di calcolo con spazio logico dei processi a 20 bit. Quanto deve essere
+grande una pagina affinché la tabella delle pagine occupi 2 KB? Si assuma che le entry della
+tabella delle pagine siano grandi ciascuna 32 bit.
+A 1 KB
+C 4 KB
+B 2 KB
+D 8 KB
+
+Svolgimento:
+
+spazio logico dei processi a 20 bit --> v = 20 --> dimension totale spazio logico = 2^20
+tabella delle pagine 2 KB --> 2044 byte --> 2^11
+entry dellatabella delle pagine da 32 bit --> 4B --> 2^2 B
+
+#delle entry = 2^11/2^2 = 2^9
+dimensione pagina = spazio logico totale / #delle entry = 2^20/2^9 = 2^11 = 2KB
+
+risposta esatta B 2KB

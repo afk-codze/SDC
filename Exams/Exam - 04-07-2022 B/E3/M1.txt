@@ -1,0 +1,3 @@
+B --> falso --> un processo prima di poter passare in running dallo stato di waiting deve prima passare dallo stato di ready
+
+

@@ -1,0 +1,2 @@
+dato uno speedup complessivo di 2.5X calcolando tramite la legge di amdhal lo speedup sulla porzione di programma occupante il 50% del tempo emerge un K negativo
+risposta esatta --> D nessuna delle precedenti

@@ -1,0 +1,21 @@
+movl $10, %eax
+addl %esi, %edx
+subl $5, %eax //dipendente da 1
+incl %esi 
+movl $3, %ebx
+
+movl $10, %eax 		F D - - W
+addl %esi, %edx		F D E - W
+subl $5, %eax 		F D E - W
+incl %esi 		F D E - W
+movl $3, %ebx		F D - - W
+
+F D - - W
+  F D E - W
+    - - - - -	
+      - - - - -
+        F D E - W
+          F D E - W
+            F D - - W
+            
+risposta esatta: B 11

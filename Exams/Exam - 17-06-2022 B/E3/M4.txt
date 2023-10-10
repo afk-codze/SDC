@@ -1,0 +1,30 @@
+struct S {
+	short a; |xx--|
+	int b;	 |xxxx|
+	char c;  |x---|
+	int d;   |xxxx|
+};
+sizeof(S) = 16 B
+
+A --> falsa la ziezeof e di 16B
+c --> falsa la struct ha 5 byte di padding
+
+B:
+struct S {
+	int b;	|xxxx|
+	short a;|xx--|
+	int d;	|xxxx|
+	char c; |x---|    
+};
+--->falsa
+
+D:
+struct S {
+	int b;	|xxxx|
+	int d;	|xxxx|
+	short a;|xx|
+	char c; |x---|    
+};
+-->vero
+
+risposta esatta D

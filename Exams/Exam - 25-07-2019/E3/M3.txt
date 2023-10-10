@@ -1,0 +1,8 @@
+gestione di un context switch richieda 40 usec
+tempo speso nei context switch non superi il 2%
+
+sia T il tempo totale --> n%*T = c --> 0.02*T = 40 --> T = 40/0.02 usec --> T = 2000 usec
+
+Durata time slice: (Tms - Cms) = 2-0.04 = 1.96ms
+
+risposta corretta B 1.96 msec

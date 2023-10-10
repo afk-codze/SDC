@@ -1,0 +1,12 @@
+movl $0xA1B2C3D4, %eax
+movb $0xFE, %dl
+movsbw %dl, %ax
+movl %eax, %ecx
+
+eax = 0xD4C3B2A1
+dl = 0xFE
+ax = 0xFE
+
+0xFFFEB2A1 --> viene propagato il msb del valore che era contenuto in dl e il fomrato dato che siamo ancora in un registro appare invertito a causa dell'endianess
+
+risposta corretta: c

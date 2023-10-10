@@ -1,0 +1,8 @@
+typedef struct S {
+	char *c; |xxxx|
+	char d;  |x-|
+	short e; |xx|
+} S;
+--> allineata a 4B 
+
+risposta corretta: C sizeof(S) = 8
