@@ -1,2 +1,3 @@
 # SDC
 Personally implemented solutions for exams and exercises for the 'Computing Systems' (Sistemi di calcolo) course at the Faculty of Computer and Automation Engineering at Sapienza University.
+This course predominantly focuses on the meticulous translation of programs from C into Assembly utilizing AT&T syntax, specifically tailored for IA-32 architectures. Additionally, it emphasizes the implementation of POSIX-compliant programs that incorporate extensive utilization of the C Library. Moreover, for functions without wrappers, direct system call usage is implemented, demonstrating a blend of high-level programming and assembly language skills, coupled with practical kernel interaction through accurate system call utilization.
